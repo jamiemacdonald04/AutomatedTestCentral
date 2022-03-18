@@ -1,0 +1,10 @@
+/Users/jamie.macdonald/github/AutomatedTestCentral/CoffeeMaker/CoffeeMaker/bin/Debug/netcoreapp3.1/CoffeeMaker.deps.json
+/Users/jamie.macdonald/github/AutomatedTestCentral/CoffeeMaker/CoffeeMaker/bin/Debug/netcoreapp3.1/CoffeeMaker.dll
+/Users/jamie.macdonald/github/AutomatedTestCentral/CoffeeMaker/CoffeeMaker/bin/Debug/netcoreapp3.1/CoffeeMaker.pdb
+/Users/jamie.macdonald/github/AutomatedTestCentral/CoffeeMaker/CoffeeMaker/obj/Debug/netcoreapp3.1/CoffeeMaker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jamie.macdonald/github/AutomatedTestCentral/CoffeeMaker/CoffeeMaker/obj/Debug/netcoreapp3.1/CoffeeMaker.AssemblyInfoInputs.cache
+/Users/jamie.macdonald/github/AutomatedTestCentral/CoffeeMaker/CoffeeMaker/obj/Debug/netcoreapp3.1/CoffeeMaker.AssemblyInfo.cs
+/Users/jamie.macdonald/github/AutomatedTestCentral/CoffeeMaker/CoffeeMaker/obj/Debug/netcoreapp3.1/CoffeeMaker.csproj.CoreCompileInputs.cache
+/Users/jamie.macdonald/github/AutomatedTestCentral/CoffeeMaker/CoffeeMaker/obj/Debug/netcoreapp3.1/CoffeeMaker.dll
+/Users/jamie.macdonald/github/AutomatedTestCentral/CoffeeMaker/CoffeeMaker/obj/Debug/netcoreapp3.1/CoffeeMaker.pdb
+/Users/jamie.macdonald/github/AutomatedTestCentral/CoffeeMaker/CoffeeMaker/obj/Debug/netcoreapp3.1/CoffeeMaker.csproj.AssemblyReference.cache

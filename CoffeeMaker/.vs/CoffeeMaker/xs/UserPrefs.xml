@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{D3FEE000-EB8F-48AA-B52F-3C8A5C67F8DE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoffeeMaker.Test/IntegrationTests/LetsIntegrationTests.cs">
+    <Files>
+      <File FileName="CoffeeMaker/WetBeansCoffee.cs" />
+      <File FileName="CoffeeMaker/DryBeansCoffee.cs" />
+      <File FileName="CoffeeMaker/WeekCoffee.cs" />
+      <File FileName="CoffeeMaker/CoffeeMaker.cs" />
+      <File FileName="CoffeeMaker.Test/UnitTest1.cs" />
+      <File FileName="CoffeeMaker.Test/IntegrationTests/LetsIntegrationTests.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CoffeeMaker" expanded="True">
+            <Node name="CoffeeMaker" expanded="True" />
+            <Node name="CoffeeMaker.Test" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="IntegrationTests" expanded="True">
+                <Node name="LetsIntegrationTests.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="CoffeeMaker" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CoffeeMaker.Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CoffeeMaker PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jamie.macdonald/github/AutomatedTestCentral/CoffeeMaker/CoffeeMaker.Test/IntegrationTests/LetsIntegrationTests.cs" relfile="CoffeeMaker.Test/IntegrationTests/LetsIntegrationTests.cs" line="42" column="1" />
+      <Breakpoint file="/Users/jamie.macdonald/github/AutomatedTestCentral/CoffeeMaker/CoffeeMaker.Test/IntegrationTests/LetsIntegrationTests.cs" relfile="CoffeeMaker.Test/IntegrationTests/LetsIntegrationTests.cs" line="15" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
