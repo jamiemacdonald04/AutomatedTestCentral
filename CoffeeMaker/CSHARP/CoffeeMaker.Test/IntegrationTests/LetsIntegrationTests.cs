@@ -27,7 +27,7 @@ namespace CoffeeMaker.IntegrationTests
             //verify 
             CoffeeMock.Verify(mock => mock.GrindBeans(),  Times.Never());
             CoffeeMock.Verify(mock => mock.GetBeans(), Times.Once());
-            Assert.AreEqual(coffee, "No coffee available", "Failed becuase there are no beans");
+            Assert.AreEqual(coffee, "No coffee available", "Failed because there are no beans");
         }
 
         [TestMethod]

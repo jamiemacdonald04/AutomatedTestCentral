@@ -1,9 +1,10 @@
 ﻿using System;
 namespace CoffeeMaker
 {
-    public class WeekCoffee : ICoffeeSelect
+    public class WeakCoffee : ICoffeeSelect
     {
-        public WeekCoffee()
+
+        public WeakCoffee()
         {
         }
 
@@ -16,5 +17,6 @@ namespace CoffeeMaker
         {
             throw new NotImplementedException();
         }
-    }
+    } 
+    
 }
