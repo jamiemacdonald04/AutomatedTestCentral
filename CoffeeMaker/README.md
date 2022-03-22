@@ -1,4 +1,4 @@
-#Coffee Select 
+##Coffee Select 
 
 Creating the right cup of coffee takes time.  In this example we are not interested in the individual parts of making a 
 coffee such as grinding beans etc.   We are more interested in the mechanism of making a coffee.  What hapens if there
