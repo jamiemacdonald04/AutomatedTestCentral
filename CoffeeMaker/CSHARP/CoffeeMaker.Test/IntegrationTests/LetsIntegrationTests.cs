@@ -53,10 +53,11 @@ namespace CoffeeMaker.IntegrationTests
         [TestMethod]
         public void TestTheSweetSweetTasteOfCoffee()
         {
+            int beans = 1;
             // Arange
             Mock<ICoffeeSelect> CoffeeMock = new Mock<ICoffeeSelect>();
             CoffeeMock.Setup(test => test.GrindBeans()).Returns(true);
-            CoffeeMock.Setup(test => test.GetBeans()).Returns(1);
+            CoffeeMock.Setup(test => test.GetBeans()).Returns(beans);
 
             //make the coffee, notice no mock here.
             ICoffeeMaker coffeeMaker =
@@ -68,7 +69,7 @@ namespace CoffeeMaker.IntegrationTests
             //Assert
             CoffeeMock.Verify(mock => mock.GrindBeans(), Times.Once());
             CoffeeMock.Verify(mock => mock.GetBeans(), Times.Once());
-            Assert.AreEqual(coffee, "Coffee has now been brewed", "Yum we have coffee");
+            Assert.AreEqual(coffee, $"Coffee has now been brewed with {beans} beans", "Yum we have coffee");
         }
     }
 }

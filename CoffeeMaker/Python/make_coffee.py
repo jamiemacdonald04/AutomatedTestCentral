@@ -5,7 +5,7 @@ from coffee_maker import *
 
 
 class MakingCoffee:
-    def make_a_coffee(self):
+    def make_coffee(self):
         make_weak_coffee = CoffeeMaker(WeaKCoffee())
         make_wet_coffee = CoffeeMaker(DryBeansCoffee())
         make_dry_coffee = CoffeeMaker(WetBeansCoffee())
@@ -17,4 +17,4 @@ class MakingCoffee:
 
 if __name__ == '__main__':
     make_coffee = MakingCoffee()
-    make_coffee.make_a_coffee()
+    make_coffee.make_coffee()

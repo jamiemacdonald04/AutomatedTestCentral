@@ -9,12 +9,22 @@ namespace CoffeeMaker
 
         public int GetBeans()
         {
-            throw new NotImplementedException();
+            return 4;
         }
 
         public bool GrindBeans()
         {
-            throw new NotImplementedException();
+            if(dry_beans() == "beans are dry")
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        private string dry_beans()
+        {
+            return "beans are dry";
         }
     }
 }

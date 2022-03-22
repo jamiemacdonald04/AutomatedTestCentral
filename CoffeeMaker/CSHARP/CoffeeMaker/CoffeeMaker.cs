@@ -10,10 +10,10 @@ namespace CoffeeMaker
             this.coffeeSelect = coffeeSelect;
         }
 
-    
         public string MakingCoffee()
         {
-            if (coffeeSelect.GetBeans() <= 0)
+            var beans = coffeeSelect.GetBeans();
+            if (beans <= 0)
             {
                 return "No coffee available";
             }
@@ -21,12 +21,12 @@ namespace CoffeeMaker
             {
                 return "No ground coffee available";
             }
-            return this.brew();
+            return this.brew(beans);
         }
 
-        private string brew()
+        private string brew(int beans)
         {
-            return "Coffee has now been brewed";
+            return $"Coffee has now been brewed with {beans} beans";
         }
     }
 }

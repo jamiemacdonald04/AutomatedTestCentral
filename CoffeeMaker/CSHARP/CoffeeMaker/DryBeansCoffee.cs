@@ -9,12 +9,12 @@ namespace CoffeeMaker
 
         public int GetBeans()
         {
-            throw new NotImplementedException();
+            return 3;
         }
 
         public bool GrindBeans()
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }

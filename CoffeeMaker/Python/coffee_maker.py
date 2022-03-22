@@ -1,5 +1,4 @@
 import string
-import sys
 
 
 class CoffeeMaker:
