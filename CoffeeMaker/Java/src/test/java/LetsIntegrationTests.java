@@ -14,8 +14,8 @@ public class LetsIntegrationTests {
         when(coffeeMakerMock.GrindBeans()).thenReturn(true);
 
         ICoffeeMaker coffeemaker = new CoffeeMaker(coffeeMakerMock);
-
-        assertEquals(coffeemaker.MakingCoffee(), "No coffee available");
+        String coffee = coffeemaker.MakingCoffee();
+        assertEquals(coffee, "No coffee available");
         verify(coffeeMakerMock, times(1)).GetBeans();
         verify(coffeeMakerMock, times(0)).GrindBeans();
     }
@@ -27,8 +27,8 @@ public class LetsIntegrationTests {
         when(coffeeMakerMock.GrindBeans()).thenReturn(false);
 
         ICoffeeMaker coffeemaker = new CoffeeMaker(coffeeMakerMock);
-
-        assertEquals(coffeemaker.MakingCoffee(), "No ground coffee available");
+        String coffee = coffeemaker.MakingCoffee();
+        assertEquals(coffee, "No ground coffee available");
         verify(coffeeMakerMock, times(1)).GetBeans();
         verify(coffeeMakerMock, times(1)).GrindBeans();
     }
@@ -40,8 +40,8 @@ public class LetsIntegrationTests {
          when(coffeeMakerMock.GrindBeans()).thenReturn(true);
 
         ICoffeeMaker coffeemaker = new CoffeeMaker(coffeeMakerMock);
-
-        assertEquals(coffeemaker.MakingCoffee(), "Coffee has now been brewed");
+        String coffee = coffeemaker.MakingCoffee();
+        assertEquals(coffee, "Coffee has now been brewed");
         verify(coffeeMakerMock, times(1)).GetBeans();
         verify(coffeeMakerMock, times(1)).GrindBeans();
     }

@@ -12,8 +12,8 @@ class TestCofeeSelect(unittest.TestCase):
         coffee_select_Mock.grind_beans.return_value = False
 
         maker = CoffeeMaker(coffee_select_Mock)
-
-        assert maker.making_coffee() == "No coffee available"
+        coffee = maker.making_coffee()
+        assert coffee == "No coffee available"
 
         # called with zero arguments
         coffee_select_Mock.get_beans.assert_called_with()
@@ -30,8 +30,8 @@ class TestCofeeSelect(unittest.TestCase):
         coffee_select_Mock.grind_beans.return_value = False
 
         maker = CoffeeMaker(coffee_select_Mock)
-
-        assert maker.making_coffee() == "No ground coffee available"
+        coffee = maker.making_coffee()
+        assert coffee == "No ground coffee available"
 
         # called with zero arguments
         coffee_select_Mock.get_beans.assert_called_with()
@@ -51,8 +51,8 @@ class TestCofeeSelect(unittest.TestCase):
         coffee_select_Mock.grind_beans.return_value = True
 
         maker = CoffeeMaker(coffee_select_Mock)
-
-        assert maker.making_coffee() == "Coffee has now been brewed with {} beans".format(beans)
+        coffee = maker.making_coffee()
+        assert coffee == "Coffee has now been brewed with {} beans".format(beans)
 
         # called with zero arguments
         coffee_select_Mock.get_beans.assert_called_with()
