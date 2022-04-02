@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="interfaces\" />
+    <None Remove="Moq" />
+    <None Remove="Microsoft.NET.Test.Sdk" />
+    <None Remove="MSTest.TestAdapter" />
+    <None Remove="MSTest.TestFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="interfaces\" />
+  </ItemGroup>
+</Project>
