@@ -34,7 +34,7 @@ namespace CoffeeMaker
             {
                 return true;
             }
-            return false;
+            throw new ArgumentNullException("Parameter Type cannot be null");
         }
 
         public List<CoffeeModel> GroupOrder()

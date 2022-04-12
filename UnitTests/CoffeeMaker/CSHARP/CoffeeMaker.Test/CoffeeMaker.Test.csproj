@@ -14,14 +14,12 @@
 <PrivateAssets>all</PrivateAssets>
 </PackageReference>
     <PackageReference Include="Moq" Version="4.17.2" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="IntegrationTests\" />
     <None Remove="Moq" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="IntegrationTests\" />
+    <None Remove="NUnit" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CoffeeMaker\CoffeeMaker.csproj" />
