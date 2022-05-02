@@ -21,6 +21,7 @@ func setup() {
 func teardown() {
 	log.Println("\n----runs after all tests----")
 }
+
 func TestBeanCount(t *testing.T) {
 	var beanCount int = wetBeansCoffee.GetBeans()
 	assert.Equal(t, beanCount, 4)
@@ -43,7 +44,7 @@ func TestDryingBeansForConsistency(t *testing.T) {
 
 }
 
-func TestLabelsAreCorrect(t *testing.T) {
+func TestValuesAreCorrect(t *testing.T) {
 	coffee := NewCoffeeModel("Frapachino", 1, true, "France")
 	assert.Equal(t, coffee.label, "Frapachino")
 	assert.Equal(t, coffee.milk, true)

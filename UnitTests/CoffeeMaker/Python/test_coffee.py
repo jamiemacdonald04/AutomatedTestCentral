@@ -62,7 +62,10 @@ class TestCoffee(unittest.TestCase):
 
         coffee_one = self.__class__._wet_coffee.assign_coffee_properties(1, "Frapachino", True, "France")
         coffee_two = self.__class__._wet_coffee.assign_coffee_properties(1, "Frapachino", True, "France")
+        coffee_three = coffee_one
         self.assertIsNot(coffee_one, coffee_two)
+        self.assertIs(coffee_one, coffee_three)
+        self.assertIsInstance(coffee_one, CoffeeModel)
 
         # watch out for this, as this is the same type but is analysed as an equals not a type comparison
         self.assertIs(coffee_one.label, coffee_two.label);
