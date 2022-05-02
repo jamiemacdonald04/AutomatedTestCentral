@@ -1,9 +1,9 @@
 import Interfaces.*;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
-
-import jdk.jshell.spi.ExecutionControl;
 import org.junit.jupiter.api.Test;
+import jdk.jshell.spi.ExecutionControl;
+
 
 public class LetsIntegrationTests {
 
