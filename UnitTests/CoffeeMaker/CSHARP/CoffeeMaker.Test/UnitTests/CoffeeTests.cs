@@ -95,7 +95,9 @@ namespace CoffeeMaker.Test.IntegrationTests
             CoffeeModel coffeeTwo = new CoffeeModel();
             coffeeOne = wetBeanCoffee.AssignCoffeeProperties(1, "Frapachino", true, "France");
             coffeeTwo = wetBeanCoffee.AssignCoffeeProperties(1, "Frapachino", true, "France");
+            CoffeeModel coffeeThree = coffeeOne;
 
+            Assert.AreSame(coffeeOne, coffeeThree);
             Assert.AreNotSame(coffeeOne, coffeeTwo);
             // watch this gotcha.
             Assert.AreSame(coffeeOne.Label, coffeeTwo.Label);
