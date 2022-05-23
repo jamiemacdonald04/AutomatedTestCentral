@@ -67,7 +67,7 @@ class TestCoffee(unittest.TestCase):
         self.assertIs(coffee_one, coffee_three)
         self.assertIsInstance(coffee_one, CoffeeModel)
 
-        # watch out for this, as this is the same type but is analysed as an equals not a type comparison
+        # watch out for this as they are both string but not the same object.  Looks only to assess the contents
         self.assertIs(coffee_one.label, coffee_two.label);
 
     def test_coffee_group(self):

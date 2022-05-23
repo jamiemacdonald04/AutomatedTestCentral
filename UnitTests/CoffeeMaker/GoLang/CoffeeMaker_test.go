@@ -44,6 +44,11 @@ func TestDryingBeansForConsistency(t *testing.T) {
 
 }
 
+func TestSkipThisTestAsItsBroken(t *testing.T) {
+	t.Skip("Skip this test as we know it is going ot fail.")
+	assert.True(t, false)
+}
+
 func TestValuesAreCorrect(t *testing.T) {
 	coffee := NewCoffeeModel("Frapachino", 1, true, "France")
 	assert.Equal(t, coffee.label, "Frapachino")

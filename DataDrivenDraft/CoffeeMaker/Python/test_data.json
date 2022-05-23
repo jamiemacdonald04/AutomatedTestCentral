@@ -1,0 +1,310 @@
+[
+  {
+    "_id": "62742d158d3810b10e11cecc",
+    "index": 0,
+    "guid": "51fe33a1-d4b0-4670-9b45-362cf43a1fbc",
+    "isActive": false,
+    "balance": "$1,966.75",
+    "picture": "http://CoffeePalace.it/32x32",
+    "age": 34,
+    "name": "Theresa Tyson",
+    "gender": "female",
+    "company": "KINETICA",
+    "email": "theresatyson@kinetica.com",
+    "phone": "+1 (807) 542-3304",
+    "address": "895 Bedford Avenue, Orason, California, 7457",
+    "about": "Tempor irure ea ea cillum dolore veniam laboris elit excepteur magna labore. Laboris consectetur est et dolor nulla incididunt aliqua. Mollit anim ex do excepteur et. Deserunt sit aliqua commodo veniam. Commodo sit minim tempor commodo ad do deserunt incididunt esse sit exercitation anim anim mollit. Ea aliqua ullamco culpa mollit culpa.\r\n",
+    "registered": "2016-08-30T03:33:21 -01:00",
+    "latitude": -18.141451,
+    "longitude": -178.668979,
+    "tags": [
+      "occaecat",
+      "ea",
+      "et",
+      "dolor",
+      "enim",
+      "commodo",
+      "ex"
+    ],
+    "todaysServers": [
+      {
+        "id": 0,
+        "name": "Mollie Harmon"
+      },
+      {
+        "id": 1,
+        "name": "Mcpherson Marks"
+      },
+      {
+        "id": 2,
+        "name": "Jerry Sullivan"
+      }
+    ],
+    "greeting": "Hello, Theresa Tyson! You have 4 unclaimed loyalty coffees.",
+    "favoriteCoffee": "Capachino"
+  },
+  {
+    "_id": "62742d150469787bba143ef0",
+    "index": 1,
+    "guid": "8bc82272-ff5e-4726-8ef8-9430bfd0d49d",
+    "isActive": true,
+    "balance": "$2,216.49",
+    "picture": "http://CoffeePalace.it/32x32",
+    "age": 24,
+    "name": "Mccarty Spears",
+    "gender": "male",
+    "company": "MOMENTIA",
+    "email": "mccartyspears@momentia.com",
+    "phone": "+1 (912) 591-2248",
+    "address": "875 Cyrus Avenue, Grapeview, Missouri, 4049",
+    "about": "Nulla ad amet officia ea pariatur aliquip. Aliqua veniam sunt duis dolor esse aliqua laboris dolor fugiat dolore proident qui eu sit. Culpa voluptate officia Lorem elit anim culpa fugiat eu occaecat cillum in anim eu duis. Dolor adipisicing ea reprehenderit occaecat cillum velit laborum consequat. Cillum consectetur velit anim aliqua magna eu commodo veniam cupidatat culpa nisi. Minim occaecat Lorem exercitation aliquip officia ut velit adipisicing velit ex nisi.\r\n",
+    "registered": "2019-05-05T10:13:39 -01:00",
+    "latitude": 5.227555,
+    "longitude": 131.390597,
+    "tags": [
+      "non",
+      "esse",
+      "anim",
+      "consectetur",
+      "irure",
+      "ex",
+      "minim"
+    ],
+    "todaysServers": [
+      {
+        "id": 0,
+        "name": "Genevieve Fulton"
+      },
+      {
+        "id": 1,
+        "name": "Henson Hayes"
+      },
+      {
+        "id": 2,
+        "name": "Paula Pugh"
+      }
+    ],
+    "greeting": "Hello, Mccarty Spears! You have 8 unclaimed loyalty coffees.",
+    "favoriteCoffee": "Latte"
+  },
+  {
+    "_id": "62742d15830761c8531a237c",
+    "index": 2,
+    "guid": "efd25335-a5e6-4be7-b97d-4af738161f12",
+    "isActive": true,
+    "balance": "$3,505.24",
+    "picture": "http://CoffeePalace.it/32x32",
+    "age": 30,
+    "name": "Celia Knowles",
+    "gender": "female",
+    "company": "QUARMONY",
+    "email": "celiaknowles@quarmony.com",
+    "phone": "+1 (819) 464-2809",
+    "address": "440 Furman Street, Yardville, Maryland, 4679",
+    "about": "Aliqua voluptate ea nisi ut pariatur ad sunt ea sit sint pariatur. Duis culpa deserunt ut nulla ex occaecat consequat labore ad ut deserunt. Proident laboris Lorem dolore excepteur Lorem reprehenderit non minim est eiusmod consequat. Lorem nulla mollit ea velit consequat ipsum voluptate adipisicing esse qui.\r\n",
+    "registered": "2019-12-31T08:00:29 -00:00",
+    "latitude": 18.457121,
+    "longitude": -24.448383,
+    "tags": [
+      "adipisicing",
+      "commodo",
+      "magna",
+      "aliquip",
+      "anim",
+      "aliquip",
+      "elit"
+    ],
+    "todaysServers": [
+      {
+        "id": 0,
+        "name": "Kelsey Pratt"
+      },
+      {
+        "id": 1,
+        "name": "Vega Osborne"
+      },
+      {
+        "id": 2,
+        "name": "Adrian Ellison"
+      }
+    ],
+    "greeting": "Hello, Celia Knowles! You have 3 unclaimed loyalty coffees.",
+    "favoriteCoffee": "Capachino"
+  },
+  {
+    "_id": "62742d15e38223eae9381fd9",
+    "index": 3,
+    "guid": "da4ebd86-f02a-4fae-b50e-2f807788605e",
+    "isActive": true,
+    "balance": "$3,420.09",
+    "picture": "http://CoffeePalace.it/32x32",
+    "age": 30,
+    "name": "Sheri Sanders",
+    "gender": "female",
+    "company": "ACCRUEX",
+    "email": "sherisanders@accruex.com",
+    "phone": "+1 (964) 406-2115",
+    "address": "870 Story Court, Stouchsburg, Minnesota, 704",
+    "about": "Adipisicing irure pariatur tempor labore duis consequat et nostrud quis veniam qui enim quis amet. Deserunt consectetur exercitation aute cillum ullamco eu quis reprehenderit duis. Commodo dolore anim consectetur sint culpa ullamco veniam eu dolore elit laborum dolore. Ipsum eu voluptate consectetur incididunt quis cupidatat excepteur ea officia. Ad laborum ipsum aliqua consectetur ea excepteur nisi. Ea do duis reprehenderit officia sit consectetur in commodo est adipisicing veniam. Dolore voluptate do duis do laboris non ea occaecat.\r\n",
+    "registered": "2022-01-22T01:22:01 -00:00",
+    "latitude": -3.502412,
+    "longitude": 2.255429,
+    "tags": [
+      "minim",
+      "ullamco",
+      "aute",
+      "in",
+      "commodo",
+      "culpa",
+      "cupidatat"
+    ],
+    "todaysServers": [
+      {
+        "id": 0,
+        "name": "Deann Sanchez"
+      },
+      {
+        "id": 1,
+        "name": "Jaclyn Holder"
+      },
+      {
+        "id": 2,
+        "name": "Mccray Beach"
+      }
+    ],
+    "greeting": "Hello, Sheri Sanders! You have 6 unclaimed loyalty coffees.",
+    "favoriteCoffee": "Americano"
+  },
+  {
+    "_id": "62742d159e6eb96abc34a850",
+    "index": 4,
+    "guid": "9af607d3-9551-4631-9163-06418b55ce97",
+    "isActive": true,
+    "balance": "$3,445.18",
+    "picture": "http://CoffeePalace.it/32x32",
+    "age": 27,
+    "name": "Hardin Peterson",
+    "gender": "male",
+    "company": "MAGNAFONE",
+    "email": "hardinpeterson@magnafone.com",
+    "phone": "+1 (986) 411-2996",
+    "address": "160 Elm Place, Cleary, Arizona, 6942",
+    "about": "Aliquip laboris est nostrud laborum nisi ipsum ad in dolor enim quis Lorem aliqua sint. Sunt exercitation cupidatat aute qui eu sit mollit. Do cillum id veniam tempor deserunt qui laborum esse quis. Labore voluptate aute consequat laboris. Veniam quis ea et ut proident excepteur adipisicing aliqua anim officia id reprehenderit.\r\n",
+    "registered": "2019-03-23T10:30:13 -00:00",
+    "latitude": 60.36587,
+    "longitude": -178.639652,
+    "tags": [
+      "Lorem",
+      "ea",
+      "consectetur",
+      "do",
+      "ut",
+      "ad",
+      "irure"
+    ],
+    "todaysServers": [
+      {
+        "id": 0,
+        "name": "Shelia Orr"
+      },
+      {
+        "id": 1,
+        "name": "Guerra Wyatt"
+      },
+      {
+        "id": 2,
+        "name": "Patrick Mills"
+      }
+    ],
+    "greeting": "Hello, Hardin Peterson! You have 1 unclaimed loyalty coffees.",
+    "favoriteCoffee": "Capachino"
+  },
+  {
+    "_id": "62742d15cb8018592e49f6d7",
+    "index": 5,
+    "guid": "0e1c0666-b401-4a3d-88ba-eb1d59b1e974",
+    "isActive": true,
+    "balance": "$1,274.64",
+    "picture": "http://CoffeePalace.it/32x32",
+    "age": 30,
+    "name": "Elvira Kirby",
+    "gender": "female",
+    "company": "HAWKSTER",
+    "email": "elvirakirby@hawkster.com",
+    "phone": "+1 (846) 499-2442",
+    "address": "724 Poplar Street, Noxen, Wisconsin, 3667",
+    "about": "Laborum non pariatur nulla ad laboris pariatur qui do sunt est. Commodo excepteur nostrud quis adipisicing do dolor eu eu eu irure nisi pariatur. Commodo anim dolor occaecat laborum deserunt magna anim eu tempor fugiat id esse mollit officia. Anim culpa nulla consequat duis magna. Velit consequat amet ut adipisicing dolor ipsum nisi esse aliqua. Nisi eiusmod nisi veniam excepteur minim in mollit aute irure dolore ea amet minim sint. Fugiat eiusmod officia irure elit deserunt exercitation pariatur anim do.\r\n",
+    "registered": "2018-01-27T04:54:20 -00:00",
+    "latitude": -23.695045,
+    "longitude": 46.205179,
+    "tags": [
+      "est",
+      "ipsum",
+      "quis",
+      "dolore",
+      "elit",
+      "ullamco",
+      "Lorem"
+    ],
+    "todaysServers": [
+      {
+        "id": 0,
+        "name": "Simmons Weaver"
+      },
+      {
+        "id": 1,
+        "name": "Sims Kim"
+      },
+      {
+        "id": 2,
+        "name": "Ortega Macdonald"
+      }
+    ],
+    "greeting": "Hello, Elvira Kirby! You have 3 unclaimed loyalty coffees.",
+    "favoriteCoffee": "Capachino"
+  },
+  {
+    "_id": "62742d1549a1d00864447691",
+    "index": 6,
+    "guid": "eca5bf27-748f-4ec7-9e16-a9e1a817fc1f",
+    "isActive": true,
+    "balance": "$3,400.27",
+    "picture": "http://CoffeePalace.it/32x32",
+    "age": 38,
+    "name": "Bertha Walls",
+    "gender": "female",
+    "company": "NETBOOK",
+    "email": "berthawalls@netbook.com",
+    "phone": "+1 (808) 539-2492",
+    "address": "505 Grove Street, Goodville, Louisiana, 380",
+    "about": "Pariatur cillum ad velit aliqua voluptate in pariatur eu cupidatat ut elit velit. Ipsum sunt et esse aliquip esse ut consequat in pariatur nostrud duis fugiat occaecat minim. Ipsum proident pariatur fugiat do incididunt. Enim deserunt magna occaecat ut ex nisi exercitation veniam eu labore ex. Proident quis reprehenderit incididunt dolore nostrud aute quis ullamco sint qui. Id amet officia deserunt quis irure non fugiat anim ut anim et officia.\r\n",
+    "registered": "2019-11-06T04:51:00 -00:00",
+    "latitude": -85.490453,
+    "longitude": 172.235204,
+    "tags": [
+      "cillum",
+      "dolore",
+      "pariatur",
+      "anim",
+      "ullamco",
+      "incididunt",
+      "sit"
+    ],
+    "todaysServers": [
+      {
+        "id": 0,
+        "name": "Susan Luna"
+      },
+      {
+        "id": 1,
+        "name": "Frank Kelly"
+      },
+      {
+        "id": 2,
+        "name": "Elba Nunez"
+      }
+    ],
+    "greeting": "Hello, Bertha Walls! You have 10 unclaimed loyalty coffees.",
+    "favoriteCoffee": "Latte"
+  }
+]
